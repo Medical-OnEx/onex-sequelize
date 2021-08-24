@@ -1,5 +1,5 @@
 {
-  "name": "sequelize",
+  "name": "onex-sequelize",
   "description": "Multi dialect ORM for Node.JS",
   "version": "0.0.0-development",
   "maintainers": [
@@ -7,7 +7,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sequelize/sequelize.git"
+    "url": "git+https://github.com/sequelize/sequelize.git"
   },
   "bugs": {
     "url": "https://github.com/sequelize/sequelize/issues"
@@ -229,5 +229,11 @@
     "sscce-sqlite": "cross-env DIALECT=sqlite node sscce.js",
     "sscce-mssql": "cross-env DIALECT=mssql node sscce.js",
     "---------------------------------------------------------------------------------------------------": ""
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "OnEx Ltd."
 }
